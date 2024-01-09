@@ -1,0 +1,80 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+
+
+}
+
+body {
+    background-color: rgb(255, 255, 234) ;
+}
+
+main {
+    border: solid brown;
+    padding: 100px;
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(238, 238, 178) ;
+    margin: auto;
+    position: absolute;
+    right: 370px;
+    top: 300px;
+    
+
+}
+
+.ulsa {
+    border: solid brown;
+    padding: 30px;
+    width: 100%;
+    max-width: 100px;
+    background-color: rgb(238, 238, 178) ;
+    margin:90px;
+    min-width: 20px;
+    position: absolute;
+    top: 200px;
+    
+
+    
+}
+
+nav a:hover {
+    background-color: rgb(87, 43, 43);
+  }
+  
+  nav a{
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    transition: all ease 0.3s;
+    display: block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+  }
+
+  nav {
+    background-color: rgb(238, 238, 178);
+  }
+
+h2 {
+    margin: auto;
+    text-align: center;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    text-align: left;
+}
