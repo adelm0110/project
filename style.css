@@ -5,6 +5,7 @@ h1 {
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
+    transition: all ease 0.3s;
 
 
 }
@@ -23,6 +24,7 @@ main {
     position: absolute;
     right: 370px;
     top: 300px;
+    transition: all ease 0.3s;
     
 
 }
@@ -37,7 +39,7 @@ main {
     min-width: 20px;
     position: absolute;
     top: 200px;
-    
+    transition: all ease 0.3s;
 
     
 }
@@ -68,6 +70,12 @@ nav a:hover {
 
   nav {
     background-color: rgb(238, 238, 178);
+    text-align: center;
+  border: solid rgb(62, 13, 13);
+  margin: auto;
+  max-width: 1200px;
+  display: block;
+  width: 100%;
   }
 
 h2 {
@@ -77,4 +85,5 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     text-align: left;
+    transition: all ease 0.3s;
 }
