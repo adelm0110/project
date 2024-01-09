@@ -45,7 +45,7 @@ main {
 }
 
 nav a:hover {
-    background-color: rgb(87, 43, 43);
+    background-color: rgb(243, 243, 121);
   }
   
   nav a{
@@ -53,14 +53,14 @@ nav a:hover {
     text-decoration: none;
     text-transform: uppercase;
     font-family: sans-serif;
-    padding: 25px 15px;
+    padding: 2px 15px;
     transition: all ease 0.3s;
     display: block;
   }
   
   nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
     display: flex;
   }
   
@@ -71,11 +71,14 @@ nav a:hover {
   nav {
     background-color: rgb(238, 238, 178);
     text-align: center;
-  border: solid rgb(62, 13, 13);
+  border: solid brown;
   margin: auto;
-  max-width: 1200px;
+  max-width: 270px;
   display: block;
   width: 100%;
+  position: absolute;
+  top: 140px;
+  right: 850px;
   }
 
 h2 {
