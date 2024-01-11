@@ -1,0 +1,62 @@
+nav {
+    background-color: rgb(238, 238, 178);
+    text-align: center;
+  border: solid brown;
+  margin: auto;
+  max-width: 100%;
+  display: block;
+  width: 185px;
+  }
+
+  nav a:hover {
+    background-color: rgb(243, 243, 121);
+  }
+  
+  nav a{
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 2px 15px;
+    transition: all ease 0.3s;
+    display: block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+  }
+
+  h1 {
+    margin: auto;
+      text-align: center;
+      font-size: 70px;
+      color: brown;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 100%;
+      transition: all ease 0.3s;
+  
+  
+  }
+  
+  body {
+      background-color: rgb(255, 255, 234) ;
+  }
+  
+  main {
+      border: solid brown;
+      padding: 100px;
+      width: 1600px;
+      height: 1000px;
+      max-width: 100%;
+      background-color: rgb(238, 238, 178) ;
+      margin: auto;
+      transition: all ease 0.3s;
+      position:relative;
+      top: 200px;
+  }
