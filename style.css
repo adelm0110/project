@@ -76,7 +76,7 @@ nav a:hover {
   margin: auto;
   max-width: 100%;
   display: block;
-  width: 185px;
+  width: 250px;
   position: relative;
   top: -1200px;
   
@@ -92,9 +92,6 @@ h2 {
     transition: all ease 0.3s;
 }
 
-.pic {
-
-}
 
 div {
   width: 100%;
@@ -103,3 +100,16 @@ div {
   background-image: url();
 }
 
+p {
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main h2{
+  margin: auto;
+  text-align: center;
+}
+main p{
+  margin: auto;
+  text-align: center;
+}
