@@ -180,3 +180,8 @@ main p{
 .column.side p {
   text-align: center;
 }
+
+.column.side img {
+  max-width: 100%;
+  height: auto;
+}
