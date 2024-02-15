@@ -191,3 +191,10 @@ hr {
   color: brown;
 }
 
+
+.border.join {
+  border: solid brown;
+  background-color: #f0ed9d;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
