@@ -57,8 +57,7 @@ body {
 /* Left and right column */
 .column.side {
   width: 25%;
-  border: solid brown;
-  background-color: rgb(255, 246, 179);
+  
 }
 
 /* Middle column */
@@ -179,9 +178,16 @@ main p{
 }
 .column.side p {
   text-align: center;
+  border: solid brown;
+  background-color: #f0ed9d;
 }
 
 .column.side img {
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
+hr {
+  color: brown;
+}
+
