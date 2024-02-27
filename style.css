@@ -3,7 +3,10 @@ h1 {
     text-align: center;
     font-size: 70px;
     color: rgb(97, 189, 242);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 50;
     width: 100%;
     transition: all ease 0.3s;
 
@@ -46,6 +49,7 @@ body {
 .topnav a:hover {
   background-color: #e4f2f4;
   color: black;
+  transition: all ease 0.3s;
 }
 
 /* Create three unequal columns that floats next to each other */
@@ -179,13 +183,17 @@ main p{
 .column.side p {
   text-align: center;
   border: solid rgb(97, 189, 242);
-  background-color: #e4f2f4;
+  background-color: #f4f7f7;
+  border-radius: 15px;
 }
 
 .column.side img {
   max-width: 100%;
   height: auto;
   margin: auto;
+  border: solid rgb(97, 189, 242);
+  background-color: white;
+  border-radius: 15px;
 }
 hr {
   color: rgb(97, 189, 242);
@@ -203,3 +211,45 @@ hr {
   height: auto;
   margin: auto;
 }
+.pbox {
+  border: rgb(97, 189, 242) solid;
+  background-color: #f4f7f7;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid rgb(97, 189, 242);
+  height: 400px;
+  margin: auto;
+  background-color: #e4f2f4;
+  border-radius:25px;
+
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 25px;
+}
+.cards{
+  /*parent-element for each .card*/
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap:48px;
+}
+
+/* use a media query write desktop layout styles*/
+@media(min-width: 600px) {
+  .cards {
+    flex-direction:row;
+  }
+}
+.card p {
+  text-align: center;
+}
+
+
