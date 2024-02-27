@@ -2,7 +2,7 @@ h1 {
   margin: auto;
     text-align: center;
     font-size: 70px;
-    color: brown;
+    color: rgb(97, 189, 242);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     transition: all ease 0.3s;
@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(238, 238, 178) ;
+    background-color: #e4f2f4 ;
     margin: 0;
 }
 
@@ -28,7 +28,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: brown;
+  background-color: rgb(97, 189, 242);
   
 }
 
@@ -44,7 +44,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: rgb(205, 205, 167);
+  background-color: #e4f2f4;
   color: black;
 }
 
@@ -73,12 +73,12 @@ body {
 }
 
 main {
-    border: solid brown;
+    border: solid rgb(97, 189, 242);
     padding: 100px;
     width: 1600px;
     height: 1000px;
     max-width: 100%;
-    background-color: rgb(238, 238, 178) ;
+    background-color: #e4f2f4 ;
     margin: auto;
     transition: all ease 0.3s;
     position:relative;
@@ -89,11 +89,11 @@ main {
 }
 
 .ulsa {
-    border: solid brown;
+    border: solid rgb(97, 189, 242);
     padding: 30px;
     width: 100%;
     max-width: 100px;
-    background-color: rgb(238, 238, 178) ;
+    background-color: #e4f2f4 ;
     margin:90px;
     min-width: 20px;
     position: absolute;
@@ -104,11 +104,11 @@ main {
 }
 
 nav a:hover {
-    background-color: rgb(243, 243, 121);
+    background-color: #e4f2f4;
   }
   
   nav a{
-    color: brown;
+    color: rgb(97, 189, 242);
     text-decoration: none;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -128,9 +128,9 @@ nav a:hover {
   }
 
   nav {
-    background-color: rgb(238, 238, 178);
+    background-color: #e4f2f4;
     text-align: center;
-  border: solid brown;
+  border: solid rgb(97, 189, 242);
   margin: auto;
   max-width: 100%;
   display: block;
@@ -142,7 +142,7 @@ nav a:hover {
 
 h2 {
     margin: auto;
-    color: brown;
+    color: rgb(97, 189, 242);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 100%;
     transition: all ease 0.3s;
@@ -152,7 +152,7 @@ h2 {
 
 
 p {
-  color: brown;
+  color: rgb(97, 189, 242);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -178,8 +178,8 @@ main p{
 }
 .column.side p {
   text-align: center;
-  border: solid brown;
-  background-color: #f0ed9d;
+  border: solid rgb(97, 189, 242);
+  background-color: #e4f2f4;
 }
 
 .column.side img {
@@ -188,13 +188,13 @@ main p{
   margin: auto;
 }
 hr {
-  color: brown;
+  color: rgb(97, 189, 242);
 }
 
 
 .border.join {
-  border: solid brown;
-  background-color: #f0ed9d;
+  border: solid rgb(97, 189, 242);
+  background-color: #e4f2f4;
   font-size: x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
