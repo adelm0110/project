@@ -226,7 +226,7 @@ hr {
   border: 2px solid rgb(97, 189, 242);
   height: 400px;
   margin: auto;
-  background-color: #e4f2f4;
+  background-color: #f1f1f1;
   border-radius:25px;
 
 }
@@ -250,8 +250,4 @@ hr {
     flex-direction:row;
   }
 }
-.card p {
-  text-align: center;
-}
-
 
