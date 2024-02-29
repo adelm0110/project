@@ -205,6 +205,7 @@ hr {
   background-color: #e4f2f4;
   font-size: x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
 }
 .column.middle img {
   max-width: 100%;
@@ -251,3 +252,9 @@ hr {
   }
 }
 
+.card p {
+  text-align: center;
+  border: solid rgb(97, 189, 242);
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
